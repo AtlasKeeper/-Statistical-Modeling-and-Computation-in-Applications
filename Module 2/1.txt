@@ -1,0 +1,22 @@
+Dimension reduction refers to a set of techniques which can transform high-dimensional data into their representative low-dimensional data. During the process, some information of the original data is discarded but some main characteristics of the original data is preserved.
+
+Dimension reduction is important because processing and analyzing high-dimensional data can be computationally intractable. Dimension reduction is very useful in dealing with a large number of observations and variables, hence it is widely used in many fields such as signal processing, machine learning, and bioinformatics.
+
+Three dimension reduction techniques will be introduced:
+
+Principal Component Analysis (PCA)
+
+Multidimensional Scaling (MDS), and
+
+Stochastic Neighbor Embedding (SNE).
+
+PCA tries to project the original high-dimensional data into lower dimensions by capturing the most prominent variance in the data.
+
+MDS is a technique for reducing data dimensions while attempting to preserve the relative distance between high-dimensional data points.
+
+SNE is a non-linear technique to “cluster" data points by trying to keep similar data points close to each other.
+
+PCA and classical MDS share similar computations: they both use the spectral decomposition of symmetric matrices, but on different input matrices.
+
+
+
